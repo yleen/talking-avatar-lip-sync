@@ -2,8 +2,7 @@
   "name": "talking_virtual_avatar_chatbot",
   "version": "1.0.0",
   "scripts": {
-    "dev": "gulp watch",
-    "build": "gulp"
+    "build": "./node_modules/.bin/gulp build"
   },
   "dependencies": {
     "aws-sdk": "^2.82.0",
